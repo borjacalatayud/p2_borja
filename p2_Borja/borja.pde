@@ -1,5 +1,5 @@
 void borja(float posx, float posy){
-  pushMatrix();
+  push();
   translate(posx,posy);
   background(200);
     rectMode(CENTER);
@@ -15,5 +15,5 @@ line(10,100,10,50);
 line(90,50,90,100);
 rect(50,40,90,20);
 arc(width/2,30,50,40,radians(180),radians(360));
-  popMatrix();
+  pop();
 }
