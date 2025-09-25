@@ -1,5 +1,5 @@
 void setup(){
-size(600,600);
+size(100,200);
 }
 void draw(){
 borja(0,0);
